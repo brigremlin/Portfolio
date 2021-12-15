@@ -1,0 +1,43 @@
+:host
+h1 {
+  color: rgba(135, 237, 255, 0.75);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hr {
+  border: 0;
+  border-top: medium double #ccc;
+  height: 1px;
+  overflow: visible;
+  padding: 0px;
+  color: rgba(135, 237, 255, 0.75);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hr::after {
+  content: "Projects";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 2.4em;
+  padding: 0 0.3em;
+  background: rgba(135, 237, 255, 0.75);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+#name {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(135, 237, 255, 0.75);
+}
+
+img {
+  height: 100%;
+}
+
+button {
+  height: 200px;
+}
