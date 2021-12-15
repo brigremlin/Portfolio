@@ -1,11 +1,10 @@
-:host
 h1 {
   color: rgba(135, 237, 255, 0.75);
   text-align: center;
   margin-top: 20px;
 }
 
-.hr {
+.hr1 {
   border: 0;
   border-top: medium double #ccc;
   height: 1px;
@@ -16,7 +15,7 @@ h1 {
   margin-top: 100px;
 }
 
-.hr::after {
+.hr1::after {
   content: "Projects";
   display: inline-block;
   position: relative;
@@ -26,18 +25,49 @@ h1 {
   background: rgba(135, 237, 255, 0.75);
   color: rgb(0, 0, 0);
   font-weight: bold;
+  opacity: 100%;
 }
 
 #name {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
-  color: rgba(135, 237, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+  float: left;
+  padding: 10px;
+  opacity: 100%;
 }
 
 img {
-  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.container {
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 100px;
+  border: 2px solid rgb(26, 26, 26);
+  border-radius: 2%;
+  overflow: hidden;
+  max-width: 100%;
+  margin-left: 25%;
+  padding:0;
 }
 
 button {
-  height: 200px;
+  border: none;
+}
+
+.hr2 {
+  margin-top: 70px;
+  opacity: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(192, 192, 192);
+  padding-left: 10px;
 }

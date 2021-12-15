@@ -1,17 +1,17 @@
 <div class="projects">
-  <hr class="hr" />
-  <div class="project-container">
+  <hr class="hr1"/>
     <div class="row">
-      <div class="col-lg-3" *ngFor="let project of projectList">
-        <div class="item">
-          <p id="name">{{ project.name }}</p>
+      <div class="col-lg-5" *ngFor="let project of projectList">
+        <div class="container">
           <button>
-            <a href="https://cocktailapp-a09de.firebaseapp.com"
+            <a href="{{project.url}}"
               ><img src="{{ project.image }}" alt=""
             /></a>
           </button>
+          <p id="name">{{ project.name }}</p>
+          <hr class = "hr2">
+          <p class = "about">{{project.about}}</p>
         </div>
       </div>
     </div>
   </div>
-</div>

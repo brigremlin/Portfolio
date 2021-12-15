@@ -1,69 +1,33 @@
 nav {
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(0, 0, 0);
   margin-bottom: 0%;
   border: none;
-  padding: 15px;
 }
 
 .navbar-brand {
-  font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
 }
 
-img {
-  height: 80px;
-  padding-left: 100px;
-}
-
-.header {
-  background-color: rgb(48, 48, 48);
-  min-height: 600px;
-  padding: 40px;
-}
-
-p {
-  border-right: solid 3px rgb(146, 224, 238);
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: "Source Code Pro", monospace;
-  font-size: 65px;
+h1 {
   color: rgb(146, 224, 238);
-  margin: 0 auto;
-  animation: animated-text 4s steps(29, end) 1s 1 normal both,
-    animated-cursor 600ms steps(29, end) infinite;
-  margin-top: 200px;
-}
-
-@keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 472px;
-  }
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor {
-  from {
-    border-right-color: rgba(135, 237, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
+  padding-left: 100px;
+  font-weight: bold;
 }
 
 .navbar-right {
   margin-right: 3px;
-  padding-top: 8px;
-  font-weight: bold;
+  padding-top: 10px;
   font-size: 20px;
+
 }
 
 li {
   display: inline;
-  padding: 20px;
-  color: rgba(135, 237, 255, 0.75);
+  padding-right: 40px;
+  color: rgb(135, 237, 255);
+}
+
+a {
+  color: rgb(135, 237, 255);
 }
