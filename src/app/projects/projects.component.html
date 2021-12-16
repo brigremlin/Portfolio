@@ -1,7 +1,7 @@
 <div class="projects">
   <hr class="hr1"/>
     <div class="row">
-      <div class="col-lg-5" *ngFor="let project of projectList">
+      <div class="col-lg-5" *ngFor="let project of projectList, let i = index">
         <div class="container">
           <button>
             <a href="{{project.url}}"

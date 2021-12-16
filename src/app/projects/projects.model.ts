@@ -3,7 +3,8 @@ export class Projects {
     public name: string,
     public image: string,
     public about: string,
-    public url: string
+    public url: string,
+    public id?: number
   ) {}
 
 }

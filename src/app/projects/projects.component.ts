@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Projects } from './projects.model';
 import { ProjectsService } from './projects.service';
 
@@ -10,12 +11,14 @@ import { ProjectsService } from './projects.service';
 })
 export class ProjectsComponent implements OnInit {
   projectList: Projects[] = [];
-
+ 
 
   constructor(private projectsService: ProjectsService) { }
 
   ngOnInit(): void {
     this.projectList = this.projectsService.projects;
+    }
+
   }
 
-}
+

@@ -3,9 +3,6 @@
     min-height: 600px;
     padding: 40px;
     height: 100%;
-    background-image: url("../../assets/christmasScene.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
   }
   
   p {

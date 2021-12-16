@@ -9,6 +9,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsService } from './projects/projects.service';
+import { VgCoreModule } from 'ngx-videogular';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { ProjectsService } from './projects/projects.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    VgCoreModule
   ],
   providers: [ProjectsService],
   bootstrap: [AppComponent]
