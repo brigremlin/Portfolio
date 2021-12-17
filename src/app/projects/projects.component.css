@@ -51,7 +51,7 @@ img {
   overflow: hidden;
   max-width: 100%;
   margin-left: 25%;
-  padding:0;
+  padding: 0;
 }
 
 button {
@@ -71,3 +71,4 @@ button {
   color: rgb(192, 192, 192);
   padding-left: 10px;
 }
+
