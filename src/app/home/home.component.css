@@ -4,20 +4,20 @@
     padding: 40px;
     height: 100%;
   }
-  
+
   p {
     border-right: solid 3px rgb(146, 224, 238);
     white-space: nowrap;
     overflow: hidden;
     font-family: "Source Code Pro", monospace;
-    font-size: 7rem;
+    font-size: 4.7em;
     color: rgb(146, 224, 238);
     margin: 0 auto;
     animation: animated-text 4s steps(29, end) 1s 1 normal both,
       animated-cursor 600ms steps(29, end) infinite;
     margin-top: 200px;
   }
-  
+
   @keyframes animated-text {
     from {
       width: 0;
@@ -26,9 +26,9 @@
       width: 472px;
     }
   }
-  
+
   /* cursor animations */
-  
+
   @keyframes animated-cursor {
     from {
       border-right-color: rgba(135, 237, 255, 0.75);
@@ -37,4 +37,3 @@
       border-right-color: transparent;
     }
   }
-  

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   words = ["Web Developer", "Coffee Enthusiast", "Front-End Developer", "Game Designer"];
+  collapse: boolean = true;
 
   constructor() { }
 
