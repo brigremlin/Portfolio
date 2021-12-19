@@ -1,6 +1,61 @@
 h1 {
   color: rgb(135, 237, 255);
   padding-top: 200px;
-  display: flex;
-  padding-left: 250px;
+}
+
+.about {
+  text-align: center;
+}
+
+.memoji {
+  height: 300px;
+  width: auto;
+  background-color: rgba(196, 248, 255);
+  border-radius: 60%;
+  padding-bottom: 20px;
+}
+
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+  font-size: 2vh;
+  padding-top: 10px;
+}
+
+.motto {
+  font-weight: bold;
+  font-size: 2.5vh;
+  color:rgba(196, 248, 255);
+}
+
+.coding {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  height: 40vh;
+}
+
+.hr5 {
+  border: 0;
+  border-top: medium double #ccc;
+  height: 1px;
+  overflow: visible;
+  padding: 0px;
+  color: #ccc;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hr5::after {
+  content: "Clicky Keyboard Or I Send It Back";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 2em;
+  padding: 0 0.3em;
+  background: rgba(196, 248, 255);
+  color: black;
+  font-weight: bold;
 }
