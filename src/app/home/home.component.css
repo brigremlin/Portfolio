@@ -1,39 +1,29 @@
-.header {
-    background-color: rgb(0, 0, 0);
-    min-height: 600px;
-    padding: 40px;
-    height: 100%;
-  }
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  p {
-    border-right: solid 3px rgb(146, 224, 238);
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: "Source Code Pro", monospace;
-    font-size: 4.7em;
-    color: rgb(146, 224, 238);
-    margin: 0 auto;
-    animation: animated-text 4s steps(29, end) 1s 1 normal both,
-      animated-cursor 600ms steps(29, end) infinite;
-    margin-top: 200px;
-  }
+.typing-demo {
+  width: 12ch;
+  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 8vw;
+  color: rgba(196, 248, 255);
+}
 
-  @keyframes animated-text {
-    from {
-      width: 0;
-    }
-    to {
-      width: 472px;
-    }
+@keyframes typing {
+  from {
+    width: 0
   }
-
-  /* cursor animations */
-
-  @keyframes animated-cursor {
-    from {
-      border-right-color: rgba(135, 237, 255, 0.75);
-    }
-    to {
-      border-right-color: transparent;
-    }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
+}

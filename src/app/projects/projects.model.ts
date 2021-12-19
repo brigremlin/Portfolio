@@ -4,7 +4,8 @@ export class Projects {
     public image: string,
     public about: string,
     public url: string,
-    public id?: number
+    public id?: number,
+    public programs?: string[]
   ) {}
 
 }
