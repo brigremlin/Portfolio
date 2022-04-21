@@ -39,5 +39,21 @@ export class ProjectsService {
       id: 3,
       programs: ['Angular' , 'HTML', 'CSS', 'Typescript']
     },
+    {
+      name: 'CSI Employer Project',
+      image: '../../assets/csiWebsite.PNG',
+      about: 'A web application utilizing Angular and API calls to retrieve and push client data',
+      url: 'https://csi-form-project.herokuapp.com/',
+      id: 4,
+      programs: ['Angular' , 'HTML', 'CSS', 'Typescript']
+    },
+    {
+      name: 'Superhero Stack',
+      image: '../../assets/superheroStack.PNG',
+      about: 'A web application utilizing Ruby on Rails and Bootstrap 5',
+      url: 'https://superhero-stack.herokuapp.com/',
+      id: 5,
+      programs: ['Ruby' , 'Rails', 'CSS', 'Bootstrap 5']
+    },
   ];
 }
