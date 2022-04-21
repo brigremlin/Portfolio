@@ -9,10 +9,11 @@
           *ngFor="let project of projectList; let i = index"
         >
           <div class="card">
-            <a href="{{ project.url }}">
+            <a href="{{ project.url }}" target="blank">
               <img class = "program" src="{{ project.image }}" alt="" />
             </a>
             <div class="card-body">
+              <h3> <em> {{project.name }} </em> </h3>
               <p class="card-text">{{ project.about }}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="program">

@@ -1,4 +1,4 @@
-import { Observable, BehaviorSubject } from 'rxjs';
+
 import { Projects } from './projects.model';
 
 export class ProjectsService {
@@ -41,7 +41,7 @@ export class ProjectsService {
     },
     {
       name: 'CSI Employer Project',
-      image: '../../assets/csiWebsite.PNG',
+      image: '../../assets/csi.PNG',
       about: 'A web application utilizing Angular and API calls to retrieve and push client data',
       url: 'https://csi-form-project.herokuapp.com/',
       id: 4,
