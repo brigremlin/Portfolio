@@ -1,34 +1,16 @@
-<div class="scallop-up"></div>
-<div class="main">
-  <h1>Projects</h1>
-  <div class="fluid-container m-2">
-    <div class="box">
-      <div class="row">
-        <div
-          class="col-lg-4"
-          *ngFor="let project of projectList; let i = index"
-        >
-          <div class="card">
-            <a href="{{ project.url }}" target="blank">
-              <img class = "program" src="{{ project.image }}" alt="" />
-            </a>
-            <div class="card-body">
-              <h3> <em> {{project.name }} </em> </h3>
-              <p class="card-text">{{ project.about }}</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="program">
-                  <div class="row">
-                    <div class="item">
-                      <p class = "item">{{project.programs}}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+ <div class="scallop-up"></div>
+ <div class="main">
+   <div class="project-grid">
+     <div class="project-card" *ngFor="let project of projectList">
+      <div class="project-content">
+        <a href="{{project.url}}" target="_blank">
+        <img class="project-image" src="{{project.image}}" alt="">
+      </a>
+      <p class="project-name">{{project.name}}</p>
+      <p class="project-about">{{ project.about }}</p>
       </div>
-    </div>
-  </div>
-</div>
-<div class="scallop-down"></div>
+     </div>
+   </div>
+ </div>
+ <div class="scallop-down"></div>

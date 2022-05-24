@@ -5,10 +5,10 @@ export class ProjectsService {
   projects: Projects[] = [
     {
       name: 'Drink Up Application',
-      image: '../../assets/drinkUp.png',
+      image: '../../assets/drinkUpBackground.PNG',
       about:
         'A web application using the CocktailDB API to display and manipulate drink data.',
-      url: 'https://cocktailapp-a09de.firebaseapp.com/',
+      url: "https://drinkup-cocktail-application.web.app",
       id: 0,
       programs: ['Angular' , 'HTML' , 'CSS', 'Typescript']
     },
