@@ -8,11 +8,12 @@ h1 {
 }
 
 .memoji {
-  height: 300px;
-  width: auto;
+  max-height: 300px;
+  /* width: auto; */
   background-color: rgba(196, 248, 255);
   border-radius: 60%;
   padding-bottom: 20px;
+  margin-top: 2rem;
 }
 
 p {
@@ -20,7 +21,7 @@ p {
   margin-right: 20%;
   color: white;
   font-size: 2vh;
-  padding-top: 10px;
+  padding-top: 3%;
 }
 
 .motto {
@@ -58,4 +59,23 @@ p {
   background: rgba(196, 248, 255);
   color: black;
   font-weight: bold;
+}
+
+@media (max-width:600px) {
+  .h5 {
+    padding-top: 50px;
+  }
+  .hr5::after {
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .motto {
+    font-size: 1.25rem;
+  }
+  .memoji {
+    max-width: 200px;
+    height: auto;
+  }
 }

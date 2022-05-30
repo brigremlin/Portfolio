@@ -10,7 +10,7 @@ import { ProjectsService } from './projects.service';
 })
 export class ProjectsComponent implements OnInit {
   projectList: Projects[] = [];
- 
+  skills;
 
   constructor(private projectsService: ProjectsService) { }
 

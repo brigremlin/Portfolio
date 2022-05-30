@@ -10,7 +10,7 @@ export class ProjectsService {
         'A web application using the CocktailDB API to display and manipulate drink data.',
       url: "https://drinkup-cocktail-application.web.app",
       id: 0,
-      programs: ['Angular' , 'HTML' , 'CSS', 'Typescript']
+      programs: ['Angular', ' HTML', ' CSS', ' Typescript']
     },
     {
       name: 'Candy Craze: Godot Single Level',
@@ -37,7 +37,7 @@ export class ProjectsService {
         'A web application implementing user authentication and services to store and manipulate user data',
       url: 'https://getfriended-be40a.firebaseapp.com/',
       id: 3,
-      programs: ['Angular' , 'HTML', 'CSS', 'Typescript']
+      programs: ['Angular' , ' HTML', ' CSS', ' Typescript']
     },
     {
       name: 'CSI Employer Project',
@@ -45,7 +45,7 @@ export class ProjectsService {
       about: 'A web application utilizing Angular and API calls to retrieve and push client data',
       url: 'https://csi-form-project.herokuapp.com/',
       id: 4,
-      programs: ['Angular' , 'HTML', 'CSS', 'Typescript']
+      programs: ['Angular' , ' HTML', ' CSS', ' Typescript']
     },
     {
       name: 'Superhero Stack',
@@ -53,7 +53,15 @@ export class ProjectsService {
       about: 'A web application utilizing Ruby on Rails and Bootstrap 5',
       url: 'https://superhero-stack.herokuapp.com/',
       id: 5,
-      programs: ['Ruby' , 'Rails', 'CSS', 'Bootstrap 5']
+      programs: ['Ruby' , ' Rails', ' CSS', ' Bootstrap 5']
     },
+    {
+      name: 'Venku',
+      image: '../../assets/venku.PNG',
+      about: 'Implemented search features, call-to-actions, form implementation and click-to-call features',
+      url: 'https://www.venku.com',
+      id: 6,
+      programs: ['Angular', ' Bootstrap 5']
+    }
   ];
 }
