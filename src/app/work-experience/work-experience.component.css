@@ -1,0 +1,118 @@
+.event-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 2;
+    border-radius: 16px;
+    background-blend-mode: soft-light, normal;
+    box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.25), 4px 4px 26px 0px rgba(255, 255, 255, 0.05) inset, 0px 4px 2px 0px rgba(255, 255, 255, 0.05) inset, 0px -4px 2px 0px rgba(0, 0, 0, 0.15) inset;
+    backdrop-filter: blur(25px);
+    padding: 2rem;
+}
+.card-wrapper:nth-child(even) {
+    left: 50%;
+}
+.card-wrapper {
+    padding: 1rem 2rem;
+    position: relative;
+    width: 50%;
+}
+.card-wrapper:nth-child(odd):after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 8px);
+    right: -9px;
+    background: #ffffff;
+    border: 2px solid #8c0dff;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+.card-wrapper:nth-child(even):after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 8px);
+    left: -7px;
+    background: #ffffff;
+    border: 2px solid #D6009A;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+.img-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-card img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    max-height: 100px;
+    min-width: 100px;
+}
+.event-card .content {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding-left: 2rem;
+}
+.title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #D6009A;
+    line-height: 1;
+}
+.heading {
+    font-size: 1.5rem;
+    font-family: "MyFont";
+    font-weight: bold;
+    line-height: 1;
+}
+.timeline {
+    position: relative;
+}
+.timeline:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background: #656565;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+@media(max-width:1200px) {
+    .card-wrapper {
+        width: 100%;
+    }
+    .card-wrapper:nth-child(even) {
+        left: 0;
+    }
+    .timeline::before {
+        left: 0;
+    }
+    .card-wrapper:nth-child(odd):after {
+        left: -6px;
+    }
+}
+@media(max-width:568px) {
+    .event-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding: 1rem;
+    }
+    .event-card img, .event-card .content {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .event-card img {
+        margin-bottom: 1rem;
+        max-width: 75px;
+        min-height: unset;
+        min-width: unset;
+    }
+    .heading {
+        font-size: 1.25rem;
+    }
+}

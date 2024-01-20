@@ -1,0 +1,70 @@
+.tech-stack {
+    padding-top: 3rem;
+}
+.hr5 {
+    border: 0;
+    border-top: medium double #ccc;
+    height: 1px;
+    overflow: visible;
+    padding: 0px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 100px;
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .hr5::after {
+    content: "Clicky Keyboard Or I Send It Back";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 2em;
+    padding: 0 1.3em;
+    background: linear-gradient(#ff00a8,#00abff);
+    color: antiquewhite;
+    font-family: "MyFont";
+    opacity: 1;
+    text-shadow: 0px 1px 3px #5a007e;
+  }
+.technologies .row .col-lg-2.col-sm-4 {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.technologies .row > *  {
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    font-family: "MyFont";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+p {
+    text-align: center;
+    font-family: "MyFont";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+svg {
+    max-width: 120px;
+    height: 100%;
+}
+@media(max-width:568px) {
+    .technologies .row .col-lg-2.col-sm-4 {
+        max-width: 50%;
+    }
+    .hr5 {
+        margin-top: 50px;
+        margin-bottom: 2rem;
+    }
+    .tech-stack {
+        padding-top: 7rem;
+    }
+}

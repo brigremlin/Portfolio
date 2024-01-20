@@ -1,0 +1,34 @@
+<div id="experience" class="work-experience px-5 mt-5">
+    <div class="container-1600">
+        <h2 class="text-center">Work Experience & Education</h2>
+        <div class="timeline">
+            <!-- work experience -->
+            <div class="card-wrapper"  *ngFor="let job of work">
+                <div class="event-card">
+                    <div class="img-wrapper">
+                        <img src="{{job.image}}" alt="{{job.title}}">
+                    </div>
+                    <div class="content">
+                        <p class="heading">{{ job.name }}</p>
+                        <p class="title">{{ job.title }}</p>
+                        <p class="date">{{ job.date }}</p>
+                        <p class="desc">{{ job.desc }}</p>
+                    </div>
+                </div>
+            </div>
+            <!-- education -->
+            <div class="card-wrapper" *ngFor="let job of education">
+                <div class="event-card">
+                    <div class="img-wrapper">
+                        <img src="{{job.image}}" alt="{{job.title}}">
+                    </div>
+                    <div class="content">
+                        <p class="heading">{{ job.name }}</p>
+                        <p class="title">{{ job.degree }}</p>
+                        <p class="date">{{ job.date }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

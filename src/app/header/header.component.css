@@ -1,0 +1,19 @@
+img {
+    width: 97px;
+}
+.container-1400 {
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar .container-1400 {
+    width: 100%;
+    margin: auto;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav .nav-link {
+    margin-left: 3rem;
+    font-size: 1.25rem;
+    text-align: right;
+}

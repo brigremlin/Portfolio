@@ -1,17 +1,22 @@
 
- <div class="scallop-up"></div>
- <div class="main">
-   <div class="project-grid">
-     <div class="project-card" *ngFor="let project of projectList">
-      <div class="project-content">
-        <a href="{{project.url}}" target="_blank">
-        <img class="project-image" src="{{project.image}}" alt="">
-      </a>
-      <p class="project-name">{{project.name}}</p>
-      <p class="project-about">{{ project.about }}</p>
-      <p class="skills">Skills: {{project.programs}}</p>
+ <div id="projects" class="projects px-5">
+  <h3 class="text-center">Featured Projects</h3>
+  <div class="container-1600">
+    <div class="row mb-5" *ngFor="let project of projectList">
+      <div class="col-lg-6">
+        <div class="content">
+          <p class="featured">Featured Project</p>
+          <p class="project-name">{{project.name}}</p>
+          <p class="project-about">{{ project.about }}</p>
+          <p class="skills">Skills: {{project.programs}}</p>
+          <a href="{{project.url}}">View the Project</a>
+        </div>
       </div>
-     </div>
-   </div>
+      <div class="col-6">
+        <div class="img-wrapper">
+          <img class="project-image" src="{{project.image}}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
  </div>
- <div class="scallop-down"></div>

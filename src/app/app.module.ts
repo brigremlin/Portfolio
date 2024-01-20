@@ -10,6 +10,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsService } from './projects/projects.service';
 import { VgCoreModule } from 'ngx-videogular';
+import { TechStackComponent } from './tech-stack/tech-stack.component';
+import { FooterComponent } from './footer/footer.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { VgCoreModule } from 'ngx-videogular';
     HeaderComponent,
     SkillsComponent,
     ProjectsComponent,
-    AboutComponent
+    AboutComponent,
+    TechStackComponent,
+    FooterComponent,
+    WorkExperienceComponent
   ],
   imports: [
     BrowserModule,

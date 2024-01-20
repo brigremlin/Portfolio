@@ -1,8 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-html {
-  background-color:rgb(0, 0, 0);
+@font-face {
+  font-family: 'MyFont';
+  src: url('assets/fonts/Preahvihear-Regular.ttf');
 }
 
-body {
-  background-color:rgb(0, 0, 0);
+.container-1600 {
+  max-width: 1200px;
+  margin: auto;
+  padding-block: 5rem;
+}
+h2 {
+  font-family: "MyFont";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+@media(max-width:568px) {
+  .container-1600 {
+    padding-block: 2.5rem;
+  }
 }

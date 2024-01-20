@@ -13,12 +13,21 @@ export class ProjectsService {
       programs: ['Angular', ' HTML', ' CSS', ' Typescript']
     },
     {
+      name: 'Video Rush Rentals',
+      image: '../../assets/images/video-rush.png',
+      about:
+        'A customer management system that includes customer profiles, rental history, and reporting',
+      url: 'https://videorushrentals.com/',
+      id: 1,
+      programs: ['Angular' , ' PostgresSQL', ' Spring Boot', ' Typescript']
+    },
+    {
       name: 'Candy Craze: Godot Single Level',
       image: '../../assets/Candy Craze.png',
       about:
         'A single level game built using Godot and implementing custom designs and score count.',
       url: 'https://youtu.be/vHGY-wSEVSw',
-      id: 1,
+      id: 3,
       programs: ['Godot']
     },
     {
@@ -30,38 +39,5 @@ export class ProjectsService {
       id: 2,
       programs: ['Maya']
     },
-    {
-      name: 'getFRIENDED Web Application',
-      image: '../../assets/getFriended.PNG',
-      about:
-        'A web application implementing user authentication and services to store and manipulate user data',
-      url: 'https://getfriended-be40a.firebaseapp.com/',
-      id: 3,
-      programs: ['Angular' , ' HTML', ' CSS', ' Typescript']
-    },
-    {
-      name: 'CSI Employer Project',
-      image: '../../assets/csi.PNG',
-      about: 'A web application utilizing Angular and API calls to retrieve and push client data',
-      url: 'https://csi-form-project.herokuapp.com/',
-      id: 4,
-      programs: ['Angular' , ' HTML', ' CSS', ' Typescript']
-    },
-    {
-      name: 'Superhero Stack',
-      image: '../../assets/superheroStack.PNG',
-      about: 'A web application utilizing Ruby on Rails and Bootstrap 5',
-      url: 'https://superhero-stack.herokuapp.com/',
-      id: 5,
-      programs: ['Ruby' , ' Rails', ' CSS', ' Bootstrap 5']
-    },
-    {
-      name: 'Venku',
-      image: '../../assets/venku.PNG',
-      about: 'Implemented search features, call-to-actions, form implementation and click-to-call features',
-      url: 'https://www.venku.com',
-      id: 6,
-      programs: ['Angular', ' Bootstrap 5']
-    }
   ];
 }

@@ -15,7 +15,4 @@ export class SkillService {
   ]
 
   constructor(){}
-
-
-
 }
