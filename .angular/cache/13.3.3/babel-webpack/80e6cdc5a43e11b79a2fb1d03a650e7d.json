@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Work {\n  constructor(name, image, date, desc, title) {\n    this.name = name;\n    this.image = image;\n    this.date = date;\n    this.desc = desc;\n    this.title = title;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

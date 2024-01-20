@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Education {\n  constructor(name, image, degree, date) {\n    this.name = name;\n    this.image = image;\n    this.degree = degree;\n    this.date = date;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
