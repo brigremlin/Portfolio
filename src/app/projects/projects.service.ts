@@ -22,6 +22,15 @@ export class ProjectsService {
       programs: ['Angular' , ' PostgresSQL', ' Spring Boot', ' Typescript']
     },
     {
+      name: 'Contrast Ratio Checker',
+      image: '../../assets/images/contrast-ratio-checker.png',
+      about:
+        'A web application that compares two colors and calculates the contrast ratio.',
+      url: 'https://contrast-ratio-checker-cd7c3.web.app/',
+      id: 2,
+      programs: ['Angular', 'HTML', 'CSS', 'TYPESCRIPT']
+    },
+    {
       name: 'Candy Craze: Godot Single Level',
       image: '../../assets/Candy Craze.png',
       about:
@@ -36,7 +45,7 @@ export class ProjectsService {
       about:
         'A 45-second animation built using Autodesk Maya. Designs created using Photoshop and ProCreate',
       url: 'https://youtu.be/2PggXdkVrAo',
-      id: 2,
+      id: 4,
       programs: ['Maya']
     },
   ];
