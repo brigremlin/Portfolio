@@ -6,6 +6,8 @@ img {
   height: 330px;
   box-shadow: 14px 12px 0px 0px #e562be;
   position: relative;
+  border: 0.1px solid #e562be;
+  border-radius: 16px;
 }
 .container-1600 {
   max-width: 1200px;
@@ -25,9 +27,10 @@ img {
   z-index: 2;
   border-radius: 16px;
   background-blend-mode: soft-light, normal;
-  box-shadow: 0px 40px 80px 0px rgba(0, 0, 0, 0.25), 4px 4px 26px 0px rgba(255, 255, 255, 0.05) inset, 0px 4px 2px 0px rgba(255, 255, 255, 0.05) inset, 0px -4px 2px 0px rgba(0, 0, 0, 0.15) inset;
   backdrop-filter: blur(25px);
   padding: 2rem;
+  box-shadow: 0 5px 30px 0 #6c757d;
+  border: 0.1px solid transparent;
 }
 .project-name {
   font-size: 2rem;
