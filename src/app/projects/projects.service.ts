@@ -12,15 +12,15 @@ export class ProjectsService {
       id: 0,
       programs: ['Angular', ' HTML', ' CSS', ' Typescript']
     },
-    {
-      name: 'Video Rush Rentals',
-      image: '../../assets/images/video-rush.png',
-      about:
-        'A customer management system that includes customer profiles, rental history, and reporting',
-      url: 'https://videorushrentals.com/',
-      id: 1,
-      programs: ['Angular' , ' PostgresSQL', ' Spring Boot', ' Typescript']
-    },
+    // {
+    //   name: 'Video Rush Rentals',
+    //   image: '../../assets/images/video-rush.png',
+    //   about:
+    //     'A customer management system that includes customer profiles, rental history, and reporting',
+    //   url: 'https://videorushrentals.com/',
+    //   id: 1,
+    //   programs: ['Angular' , ' PostgresSQL', ' Spring Boot', ' Typescript']
+    // },
     {
       name: 'Contrast Ratio Checker',
       image: '../../assets/images/contrast-ratio-checker.png',
